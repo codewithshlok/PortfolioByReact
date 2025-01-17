@@ -5,6 +5,10 @@ import mongoose from "mongoose"
 import dotenv from "dotenv"
 const server = express()
 
+server.use(cors({
+    origin: '*', 
+}));
+
 dotenv.config({ path: '../.env' });
 
 
