@@ -6,7 +6,9 @@ import dotenv from "dotenv"
 const server = express()
 
 server.use(cors({
-    origin: '*', 
+    origin: '*', // OR replace '*' with your actual frontend URL for better security
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type"],
 }));
 
 dotenv.config({ path: '../.env' });

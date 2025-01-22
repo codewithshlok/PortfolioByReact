@@ -19,7 +19,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:8080/demo", formData);
+            const response = await axios.post("http://192.168.132.13:8080/demo", formData);
             console.log(response.data);
             setFlashMessage("Thank you for reaching out! We will get back to you soon.");
             setFormData({ name: "", mobile: "", email: "", message: "" });
