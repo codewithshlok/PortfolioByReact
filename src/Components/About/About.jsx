@@ -31,11 +31,11 @@ const About = () => {
                                     Empowering Ideas, Ready For Action.
                                 </h1>
                                 <a
-                                    href="/MyResume.pdf"
+                                    href="./Pawan_Resume_MERN_Stack(1).pdf"
                                     target="_blank"
                                     className="inline-block px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-purple-600 to-blue-500 rounded-full shadow-lg hover:from-blue-500 hover:to-purple-600 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                                 >
-                                    Download CV
+                                    Get My Resume
                                 </a>
                             </div>
 
